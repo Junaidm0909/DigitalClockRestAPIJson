@@ -12,6 +12,7 @@
 
     "digitalClock": [
             { 
+              "Id" : "101",
                 "Title" : "Main Assembly Area",
                 "IPAddress" : "198.1.280.1",
                 "NTPServerURL" : "http://www.ntp.org/",
