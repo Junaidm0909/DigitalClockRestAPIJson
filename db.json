@@ -8,4 +8,41 @@
   "profile": {
     "name": "typicode"
   }
+  ,
+
+    "digitalClock": [
+            { 
+                "Title" : "Main Assembly Area",
+                "IPAddress" : "198.1.280.1",
+                "NTPServerURL" : "http://www.ntp.org/",
+                "Schedules" : 
+                [
+                    { 
+                        "ScheduledAt" : "2012-03-19T07:22Z", 
+                        "Type" : 1,
+                        "Value" : 10 
+                        },
+                    { 
+                        "ScheduledAt" : "2012-03-19T07:22Z", 
+                        "Type" : 0, 
+                        "Value" : 10 
+                    },
+                     { 
+                        "ScheduledAt" : "2012-03-19T07:22Z", 
+                        "Type" : 1, 
+                        "Value" : 10 
+                        },
+                     { 
+                        "ScheduledAt" : "2012-03-19T07:22Z", 
+                        "Type" : 3, 
+                        "Value" : 10 
+                        },
+                     { 
+                        "ScheduledAt" : "2012-03-19T07:22Z", 
+                        "Type" : 2, 
+                        "Value" : 10 
+                        }
+                ]
+            } 
+        ]   
 }
